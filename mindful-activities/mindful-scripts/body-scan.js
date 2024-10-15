@@ -105,9 +105,9 @@ continueButton.addEventListener('click', () => {
     window.location.href = '../index.html';
 });
 
-// Event listener for 5-minute Body scan session
+// Event listener for 3-minute Body scan session
 threeMinutesButton.addEventListener('click', () => {
-    startBodyScan(0.1);
+    startBodyScan(3);
 });
 
 // Event listener for 15-minute Body scan session

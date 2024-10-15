@@ -107,7 +107,7 @@ continueButton.addEventListener('click', async () => {
 
 // Event listener for 5-minute meditation session
 fiveMinutesButton.addEventListener('click', () => {
-    startMeditation(0.1); //change to 5
+    startMeditation(5); //change to 5
 });
 
 // Event listener for 15-minute meditation session

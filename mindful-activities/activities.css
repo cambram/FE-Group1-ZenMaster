@@ -1,0 +1,72 @@
+/* --------------- General --------------- */
+.explanation-container {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.btn-exercise {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+.btn-exercise:hover,
+.btn-exercise:active {
+    background-color: #02a984;
+}
+
+.explanation-container h1 {
+    margin-bottom: 0.5rem;
+}
+
+#back-arrow svg {
+    font-size: 2rem;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+}
+
+#back-arrow:hover {
+    cursor: pointer;
+}
+
+/* --------------- Meditation --------------- */
+#time-display {
+    font-size: 4rem;
+    font-weight: 400;
+    padding: 4rem 0;
+}
+
+/* --------------- Body Scan --------------- */
+
+/* --------------- Five Senses --------------- */
+.helping-statement {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.instructional-statement {
+    font-size: 1.3rem;
+}
+
+.dynamic-five-senses-instructions {
+    min-height: 335px;
+}
+
+.dynamic-five-senses-instructions svg {
+    font-size: 5rem;
+    margin: 2rem 0;
+}
+
+dynamic-five-senses-instructions-dif {
+    min-height: 100%;
+}

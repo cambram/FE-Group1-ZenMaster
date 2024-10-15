@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="activities.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div id="back-arrow">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 11H6.414l5.293-5.293-1.414-1.414L2.586 12l7.707 7.707 1.414-1.414L6.414 13H21z"></path>
+            </svg>
+        </div>
+        <div class="explanation-container">
+            <h1 id="exercise-heading">Mindful Meditation</h1>
+            <div id="initial-instruction-container">
+                <h2>How to do this exercise</h2>
+                <p>Find a comfortable position either lying down or sitting and close your eyes.<br><br>
+                    After that, bring attention to your breath and how it feels with the rising and falling of your
+                    chest.<br><br>
+                    Whenever you get distracted by your thoughts, bring the attention back to your breath and how it
+                    feels.
+                </p>
+            </div>
+            <div class="exercise-instructions" id="mindful-meditation-instructions"></div>
+            <h2 id="time-display">10:00</h2>
+            <button type="button" class="btn-exercise" id="btn-begin-mindful-meditation-5min">5 minutes</button>
+            <button type="button" class="btn-exercise" id="btn-begin-mindful-meditation-15min">15 minutes</button>
+            <button type="button" class="btn-exercise" id="btn-continue-mindful-meditation">Continue</button>
+        </div>
+    </div>
+    <script src="mindful-scripts/mindful-meditation.js"></script>
+</body>
+
+</html>

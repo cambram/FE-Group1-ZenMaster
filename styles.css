@@ -1,0 +1,78 @@
+/* This CSS file is mainfly for styling everything 
+that is the same across all pages such as the 
+main container, the nav bar, body, etc*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --text: #0b0b0b;
+    --background: #fafdfa;
+    --primary: #01CCA0;
+    --primary20opacity: hsla(167, 99%, 40%, 20%);
+    /*--secondary: #8be9ea;
+    --accent: #5eb4e2;*/
+    --grey: #f2f2f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+}
+
+/* keeps the content at the maximum width of a mobile interface */
+.main-container {
+    width: 100%;
+    max-width: 430px;
+}
+
+/*this is to provide the space to scroll that is taken up by the fixed nav bar*/
+.nav-bar-space {
+    height: 6rem;
+}
+
+.nav-bar {
+    width: 100%;
+    max-width: 430px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--background);
+    padding: 1.5rem 3.5rem;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+}
+
+.nav-icon svg {
+    transform: scale(2);
+    transform-origin: center;
+    width: 1rem;
+    height: 1rem;
+}
+
+a {
+    color: var(--text);
+}
+
+.toggle {
+    color: var(--primary);
+}
+
+#logout-btn:hover {
+    cursor: pointer;
+}

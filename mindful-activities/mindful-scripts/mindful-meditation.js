@@ -97,12 +97,12 @@ function checkMeditationStatus() {
 // Event listener to go back to home screen
 backArrow.addEventListener('click', () => {
     cancelMeditationSession()
-    window.location.href = '../home.html';
+    window.location.href = '../index.html';
 });
 
 // Event listener for continuing past the completion screen
 continueButton.addEventListener('click', async () => {
-    window.location.href = '../home.html';
+    window.location.href = '../index.html';
 });
 
 // Event listener for 5-minute meditation session

@@ -96,13 +96,13 @@ function checkBodyScanStatus() {
 // Event listener to go back to home screen
 backArrow.addEventListener('click', () => {
     cancelBodyScanSession()
-    window.location.href = '../home.html';
+    window.location.href = '../index.html';
 });
 
 // Event listener for continuing past the completion screen
 continueButton.addEventListener('click', () => {
     // Add code to add achievement
-    window.location.href = '../home.html';
+    window.location.href = '../index.html';
 });
 
 // Event listener for 5-minute Body scan session

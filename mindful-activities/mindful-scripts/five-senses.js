@@ -51,11 +51,11 @@ nextButton.addEventListener('click', () => {
 });
 
 backArrow.addEventListener('click', () => {
-    window.location.href = '../home.html';
+    window.location.href = '../index.html';
 });
 
 continueButton.addEventListener('click', () => {
-    window.location.href = '../home.html';
+    window.location.href = '../index.html';
 });
 
 continueButton.style.display = 'none';
